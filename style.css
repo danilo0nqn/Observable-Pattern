@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(32, 32, 32);
+}
+
+.btn-div{
+  background-color: rgb(32, 32, 32);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  height: fit-content;
+}
+
+button{
+  padding: 10px 15px 10px 15px;
+  margin: 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+#pink-btn{
+  background-color: violet;
+}
+
+#blue-btn{
+  background-color: lightskyblue;
+}
